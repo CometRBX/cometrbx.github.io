@@ -1,0 +1,78 @@
+site_name: Solar Admin System
+theme:
+  name: material
+  font: 
+    text: Poppins
+    code: Fira Code
+  logo: "assets/Solar.svg"
+  favicon: "assets/Solar.svg"
+  icon: 
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - content.code.annotate
+    - tabs
+  palette:
+    scheme: dark
+extra_css:
+  - stylesheets/extra.css
+repo_url: https://github.com/Starnamics/Solar
+repo_name: "Starnamics/Solar"
+edit_uri: ""
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Starnamics/Solar/releases/latest
+      name: "Get Solar on Github"
+    - icon: fontawesome/solid/link
+      link: https://www.roblox.com/library/8505743656/Solar-Admin-System
+      name: Get Solar on Roblox
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Starnamics
+      name: Starnamics on Twitter
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/AdjPbp3mRq
+      name: Join our Discord Server!
+copyright: Copyright &copy; 2022 Starnamics
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - tables
+  - admonition
+  - pymdownx.details
+nav:
+    - "index.md"
+    - Get Started:
+      - "installing-solar.md"
+      - "setup-solar.md"
+      - "using-themes.md"
+      - "adding-commands.md"
+    - Tutorials:
+      - "creating-commands.md"
+    - Community Contributions:
+      - "community/commands.md"
+      - "community/themes.md"
+    - API Reference:
+      - "reference/api.md"
+      - "reference/command-object.md"
