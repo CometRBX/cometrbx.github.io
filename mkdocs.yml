@@ -75,4 +75,6 @@ nav:
       - "community/themes.md"
     - API Reference:
       - "reference/api.md"
-      - "reference/command-object.md"
+      - "Classes":
+        - "reference/command-object.md"
+        - "reference/registered-player.md"
